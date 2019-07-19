@@ -1,5 +1,11 @@
 # PassGen
 
-Post-GoogleCode Edition of MCG_Pass_Gen
+A simple password generator.
 
-Additional comments!
+
+<br />
+
+### Future Enhancements
+
+- Toggle option to use special characters
+- Increase the maximum password length (currently 15)
