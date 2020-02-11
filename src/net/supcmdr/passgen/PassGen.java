@@ -25,7 +25,7 @@ public class PassGen extends JFrame{
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = -8581147823226828218L;
+	private static final long serialVersionUID = 1l;
 	private JTextField outFld, inFld;
 	JButton genButton;
 	private static final String version = "4.0";
@@ -35,13 +35,7 @@ public class PassGen extends JFrame{
 			public void run(){
 				try {
 					UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-				} catch (ClassNotFoundException e) {
-					e.printStackTrace();
-				} catch (InstantiationException e) {
-					e.printStackTrace();
-				} catch (IllegalAccessException e) {
-					e.printStackTrace();
-				} catch (UnsupportedLookAndFeelException e) {
+				} catch (Exception e) {
 					e.printStackTrace();
 				}
 
