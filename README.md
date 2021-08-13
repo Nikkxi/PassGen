@@ -9,3 +9,7 @@ A simple password generator.
 
 - Toggle option to use special characters
 - Increase the maximum password length (currently 15)
+
+### Recent Additions
+
+- Added Jenkins build configuration file
