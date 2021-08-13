@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage("build") {
       steps {
-        maven install
+        mvn install
       }
     }
     stage("test") {
